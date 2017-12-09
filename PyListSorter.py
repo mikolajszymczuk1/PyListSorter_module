@@ -56,7 +56,6 @@ class PySorter(object):
         return copy_list
 
     def InsertionSort(self):
-
         n = len(self.array)
         copy_list = self.__CopyList()
 
